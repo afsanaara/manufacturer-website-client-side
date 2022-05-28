@@ -66,13 +66,6 @@ const Login = () => {
     <div class="flex h-screen bg-base-100 justify-center items-center">
       <div class="card w-96  bg-base-100 shadow-xl">
         <h1 class="text-4xl text-success font-bold text-center mt-4">Login</h1>
-        {/* <figure class="px-5 pt-5">
-          <img
-            src="https://img.freepik.com/free-vector/mobile-login-concept-illustration_114360-135.jpg?t=st=1653286621~exp=1653287221~hmac=64503d4ca106f5a72ef8b559e49b0350a6f4b88df19a62c9e5d7070ddcdaab33&w=740"
-            alt="Shoes"
-            class="rounded-xl w-60 bg-primary-content "
-          />
-        </figure> */}
         <div class="card-body  max-w-lg">
           <form action="" onSubmit={handleSubmit(onSubmit)}>
             <div className="form-control w-full max-w-xs">
