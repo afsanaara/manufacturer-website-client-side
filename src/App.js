@@ -50,8 +50,8 @@ function App() {
             </RequireAuth>
           }
         >
-          <Route  path="purchase" element={<MyPurchase />} />
-          <Route index path="profile" element={<Profile />} />
+          <Route index path="purchase" element={<MyPurchase />} />
+          <Route  path="profile" element={<Profile />} />
           <Route path="payment/:id" element={<Payment />} />
           <Route path="review" element={<AddReview />} />
           <Route

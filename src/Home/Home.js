@@ -1,5 +1,4 @@
 import React from 'react'
-import AddReview from '../Dashboard/AddReview'
 import Parts from '../Parts/Parts'
 import Banner from './Banner'
 import Brand from './Brand'
