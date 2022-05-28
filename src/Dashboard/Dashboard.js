@@ -8,8 +8,8 @@ import Loading from "../Shared/Loading";
 
 const Dashboard = () => {
   const [user, loading] = useAuthState(auth);
-  const [isUser] = UseUsers(user);
-  const [admin] = UseAdmin(user);
+  // const [isUser] = UseUsers(user);
+  // const [admin] = UseAdmin(user);
 
   if (loading) {
     return <Loading></Loading>;
@@ -27,7 +27,7 @@ const Dashboard = () => {
         <div class="drawer-side">
           <label for="my-drawer-2" class="drawer-overlay"></label>
           <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
-            {isUser && (
+            {/* {isUser && ( */}
               <>
                 <li>
                   <NavLink to="purchase">My Purchase</NavLink>
@@ -39,9 +39,9 @@ const Dashboard = () => {
                   <NavLink to="review">Add a Review</NavLink>
                 </li>
               </>
-            )}
+            {/* )} */}
 
-            {admin && (
+            {/* {admin && ( */}
               <>
                 <li>
                   <NavLink to="profile">My Profile</NavLink>
@@ -59,7 +59,7 @@ const Dashboard = () => {
                   <NavLink to="inventory">Manage Products</NavLink>
                 </li>
               </>
-            )}
+            {/* )} */}
           </ul>
         </div>
       </div>

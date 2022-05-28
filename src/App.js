@@ -57,33 +57,33 @@ function App() {
           <Route
             path="users"
             element={
-              <RequireAdmin>
+              
                 <Users />
-              </RequireAdmin>
+              
             }
           />
           <Route
             path="order"
             element={
-              <RequireAdmin>
+              
                 <AllOrders />
-              </RequireAdmin>
+              
             }
           />
           <Route
             path="product"
             element={
-              <RequireAdmin>
+              
                 <AddProduct />
-              </RequireAdmin>
+              
             }
           />
           <Route
             path="inventory"
             element={
-              <RequireAdmin>
+              
                 <ManageProducts />
-              </RequireAdmin>
+              
             }
           />
         </Route>
