@@ -7,7 +7,6 @@ const Reviews = () => {
   const {
     data: reviews,
     isLoading,
-    refetch,
   } = useQuery("reviews", () =>
     fetch("https://frozen-reef-84063.herokuapp.com/review").then((res) =>
       res.json()
