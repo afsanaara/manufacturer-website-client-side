@@ -11,8 +11,7 @@ const MyPurchase = () => {
   const navigate = useNavigate(auth);
   const {
     data: myPurchase,
-    isLoading,
-    refetch,
+    isLoading
   } = useQuery(["myPurchase", user], () =>
     fetch(
       `https://frozen-reef-84063.herokuapp.com/purchase?email=${user?.email}`,
