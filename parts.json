@@ -1,0 +1,43 @@
+[
+    {
+"name":"Microsoft Surface Laptop 3 Intel Core i5 1035G7 13.5 Inch Multi Touch Display Matte Black Surface Laptop",
+"image":"https://www.ryanscomputers.com/cdn/products/main/microsoft-surface-laptop-3-10th-gen-intel-core-i5-11577344992.webp",
+"description":"RAM 8GB,Generation 10th (Intel),Processor Type Intel Core i5,Graphics Memory Shared,Display Size (Inch) 13.5",
+"minimumQuantity":2,
+"availableQuantity":100,
+"price":119000
+    },
+    {
+"name":"Thermaltake Versa J24 TG RGB Mid Tower Black Desktop Casing #CA-1L7-00M1WN-01",
+"image":"https://www.ryanscomputers.com/cdn/products/main/thermaltake-versa-j24-tg-rgb-tempered-glass-side-11552197564.webp",
+"description":"Case Type Mid TowerOptical Drive Bay No Cooling Fan (Built-In) 4",
+"minimumQuantity":2,
+"availableQuantity":100,
+"price":6100
+    },
+    {
+"name":"Skyloong SK61 Black Hot Swap Wired (Red Switch) RGB Mechanical Gaming Keyboard",
+"image":"https://www.ryanscomputers.com/cdn/products/main/skyloong-sk61-black-hot-swap-wired-red-switch-11647774848.webp",
+"description":"Type Mechanical Gaming Keyboard,InterfaceUSBMouse, Touchpad Keyboard only,Mechanical (Key) Yes",
+"minimumQuantity":2,
+"availableQuantit":100,
+"price":4750
+    },
+    {
+"name":"Apple Mac mini (2018) 6 Core Intel Core i5 8GB DDR4 512GB SSD Mini Brand PC #MXNG2LL/A, MXNG2ZP/A",
+"image":"https://www.ryanscomputers.com/cdn/products/medium/apple-mac-mini-2018-6-core-intel-core-i5-11598855966.webp",
+"description":"RAM 8GB,CPU Cache 9MBForm Factor Mini PC,Graphics Memory Shared",
+"minimumQuantity":2,
+"availableQuantit":100,
+"price":113930
+    },
+    {
+"name":"BenQ MH560 (3800 Lumens) 1080p Business Projector",
+"image":"https://www.ryanscomputers.com/cdn/products/medium/benq-mh560-3800-lumens-1080p-business-11622895060.webp",
+"description":"Category Short ThrowDisplay Type. DLP,LightOutput (lumens) 3800 Lumens Max. Supported Resolution 1920 x 1080",
+"minimumQuantity":2,
+"availableQuantit":100,
+"price":98190
+    }
+   
+]
