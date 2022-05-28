@@ -7,7 +7,7 @@ import auth from "../firebase.init";
 import Loading from "../Shared/Loading";
 
 const MyPurchase = () => {
-  const [user, loading, error] = useAuthState(auth);
+  const [user] = useAuthState(auth);
   const navigate = useNavigate(auth);
   const {
     data: myPurchase,
