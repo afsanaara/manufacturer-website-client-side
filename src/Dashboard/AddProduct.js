@@ -36,7 +36,7 @@ const AddProduct = () => {
             image: img,
           };
           //send to database
-          fetch("http://localhost:5000/part", {
+          fetch("https://frozen-reef-84063.herokuapp.com/part", {
             method: "POST",
             body: JSON.stringify(productInfo),
             headers: {

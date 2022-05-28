@@ -5,7 +5,7 @@ const UseUsers = (user) => {
   useEffect(() => {
     const email = user?.email;
     if (email) {
-      fetch(`http://localhost:5000/user/${email}`, {
+      fetch(`https://frozen-reef-84063.herokuapp.com/user/${email}`, {
         method: "GET",
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,
       })

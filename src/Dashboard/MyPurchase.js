@@ -14,12 +14,15 @@ const MyPurchase = () => {
     isLoading,
     refetch,
   } = useQuery(["myPurchase", user], () =>
-    fetch(`http://localhost:5000/purchase?email=${user?.email}`, {
-      method: "GET",
-      headers: {
-        authorization: `Bearer ${localStorage.getItem("accessToken")}`,
-      },
-    }).then((res) => {
+    fetch(
+      `https://frozen-reef-84063.herokuapp.com/purchase?email=${user?.email}`,
+      {
+        method: "GET",
+        headers: {
+          authorization: `Bearer ${localStorage.getItem("accessToken")}`,
+        },
+      }
+    ).then((res) => {
       console.log(res);
       if (res.status === 401 || res.status === 403) {
         navigate("/");
@@ -39,7 +42,7 @@ const MyPurchase = () => {
         <div class="overflow-x-auto">
           <table class="table w-full bg-base-100">
             <thead>
-              <tr class="text-white">
+              <tr class="text-black">
                 <th></th>
                 <th>Product Name</th>
                 <th>Location</th>

@@ -21,7 +21,7 @@ const Purchase = () => {
     isLoading,
     refetch,
   } = useQuery(["purchase", id], () =>
-    fetch(`http://localhost:5000/part/${id}`, {
+    fetch(`https://frozen-reef-84063.herokuapp.com/part/${id}`, {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,
@@ -44,7 +44,7 @@ const Purchase = () => {
       quantity: data.quantity,
       Totalprice: purchase.price * data.quantity,
     };
-    fetch("http://localhost:5000/purchase", {
+    fetch("https://frozen-reef-84063.herokuapp.com/purchase", {
       method: "POST",
       body: JSON.stringify(purchaseInfo),
       headers: {

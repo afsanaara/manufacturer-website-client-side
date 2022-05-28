@@ -9,7 +9,7 @@ const Users = () => {
     isLoading,
     refetch,
   } = useQuery("users", () =>
-    fetch("http://localhost:5000/user", {
+    fetch("https://frozen-reef-84063.herokuapp.com/user", {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,
@@ -26,7 +26,7 @@ const Users = () => {
 
       <div class="overflow-x-auto">
         <table class="table w-full">
-          <thead class="text-white">
+          <thead class="text-black">
             <tr>
               <th></th>
               <th>Name</th>

@@ -50,40 +50,40 @@ function App() {
             </RequireAuth>
           }
         >
-          <Route index path="purchase" element={<MyPurchase />} />
-          <Route path="profile" element={<Profile />} />
+          <Route  path="purchase" element={<MyPurchase />} />
+          <Route index path="profile" element={<Profile />} />
           <Route path="payment/:id" element={<Payment />} />
           <Route path="review" element={<AddReview />} />
           <Route
             path="users"
             element={
-              
+              <RequireAdmin>
                 <Users />
-              
+              </RequireAdmin>
             }
           />
           <Route
             path="order"
             element={
-              
+              <RequireAdmin>
                 <AllOrders />
-              
+              </RequireAdmin>
             }
           />
           <Route
             path="product"
             element={
-              
+              <RequireAdmin>
                 <AddProduct />
-              
+              </RequireAdmin>
             }
           />
           <Route
             path="inventory"
             element={
-              
+              <RequireAdmin>
                 <ManageProducts />
-              
+              </RequireAdmin>
             }
           />
         </Route>

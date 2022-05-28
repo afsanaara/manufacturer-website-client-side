@@ -148,7 +148,7 @@ const Login = () => {
           </form>
           <p>
             <small>
-              New to Aston motors?{" "}
+              New to Ryans PC?{" "}
               <Link class="text-success font-bold" to="/register">
                 Create a Account
               </Link>

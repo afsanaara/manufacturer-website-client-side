@@ -20,7 +20,7 @@ const Payment = () => {
     isLoading,
     refetch,
   } = useQuery("purchase", () =>
-    fetch(`http://localhost:5000/purchase/${id}`, {
+    fetch(`https://frozen-reef-84063.herokuapp.com/purchase/${id}`, {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,

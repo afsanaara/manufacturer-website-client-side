@@ -18,7 +18,7 @@ const Profile = () => {
     isLoading,
     refetch,
   } = useQuery(["profile", email], () =>
-    fetch(`http://localhost:5000/profile?email=${email}`, {
+    fetch(`https://frozen-reef-84063.herokuapp.com/profile?email=${email}`, {
       method: "GET",
       headers: {
         "content-type": "application/json; charset=utf",

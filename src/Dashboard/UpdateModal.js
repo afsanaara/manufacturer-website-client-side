@@ -27,7 +27,7 @@ const UpdateModal = ({ profile, setUpdate, refetch }) => {
     const social = event.target.linkedin.value;
 
     const userInfo = { education, location, phone, social };
-    fetch(`http://localhost:5000/profile/${email}`, {
+    fetch(`https://frozen-reef-84063.herokuapp.com/profile/${email}`, {
       method: "PUT",
       body: JSON.stringify(userInfo),
       headers: {

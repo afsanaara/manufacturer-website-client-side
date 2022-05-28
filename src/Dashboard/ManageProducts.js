@@ -11,7 +11,7 @@ const ManageProducts = () => {
     isLoading,
     refetch,
   } = useQuery("parts", () =>
-    fetch("http://localhost:5000/part", {
+    fetch("https://frozen-reef-84063.herokuapp.com/part", {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,
@@ -24,7 +24,7 @@ const ManageProducts = () => {
 
   const handleDelete = (id) => {
     console.log(id);
-    fetch(`http://localhost:5000/part/${id}`, {
+    fetch(`https://frozen-reef-84063.herokuapp.com/part/${id}`, {
       method: "DELETE",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,
@@ -47,7 +47,7 @@ const ManageProducts = () => {
       <div class="overflow-x-auto">
         <table class="table w-full">
           <thead>
-            <tr class="text-white">
+            <tr class="text-black">
               <th>No</th>
               <th>Name</th>
               <th>Price</th>

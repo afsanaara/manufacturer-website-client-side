@@ -12,10 +12,10 @@ const Portfolio=()=> {
           <h2> Skills : HTML, CSS, JavaScript,React,Firebase,NodeJS,Mongodb</h2>
           <h2>
             {" "}
-            Projects : Go Travel : https://go-travel-c2715.web.app, <br />
-            Puma Bangladesh : https://amazing-taffy-10a00e.netlify.app/home{" "}
+            Projects : Go panda :https://go-panda-37deb.web.app/, <br />
+            Ara Planner :https://ara-planner.web.app/{" "}
             <br />
-            Powersurge Supplements : https://powersurge-supplements.web.app/
+            Gucci : https://rococo-brigadeiros-5202e3.netlify.app/
           </h2>
         </div>
       </div>
